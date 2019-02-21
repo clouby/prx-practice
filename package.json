@@ -1,0 +1,17 @@
+{
+  "name": "prx-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "start": "parcel index.pug",
+    "build": "parcel build app.js"
+  },
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
